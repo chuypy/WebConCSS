@@ -1,0 +1,40 @@
+.our-team {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.our-team .container--flex {
+    align-items: flex-start;
+    
+}
+.our-team__title {
+    font-family: 'Oswald' cursive;
+    color: #DE423A;
+    font-weight: bold;
+    font-size: 2.0em;
+    margin-bottom: 10px;
+}
+.our-team__img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid;
+    transition: all 0.5s;
+
+}
+.our-team__img:hover {
+     transform: scale(1.09);
+    
+}
+
+.our-team__txt {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Oswald';
+    font-size: 1.3em;
+}
+
+  
